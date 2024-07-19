@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          *
+{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+}
+.img
+{
+     height: 100vh;
+     width: 100vw;
+     background-image: url("bg.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     z-index: -1;
+}
+nav
+{
+     display: flex;
+     justify-content: end;
+     height: 50px;
+     padding: 6px 1px;
+     background-color:rgba(rgba(255, 0, 0, 0.078), green, blue, alpha) (248, 251, 253,.1);
+     width: 100%;
+}
+nav ul
+{
+     width: 300px;
+     border: 1px solid;
+     display: flex;
+     justify-content: space-between;
+}
+h1
+{    position: relative;
+     top: 15px;
+     text-decoration-line: underline;
+     background: linear-gradient(90deg,rgb(125, 9, 18),rgb(129, 44, 185),rgb(28, 63, 190),rgb(19, 190, 170));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-align: center;
+}
+#gallery
+{
+     position: relative;
+     top: 50px;
+     display: inline-flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     height: 150vh;
+     width: 100vw;
+     
+     
+}
+#gallery img
+{
+     width: 40w;
+     height: 40vh;
+     object-fit: cover;
+     border-radius: 15px;
+     display: flex;
+     box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+
+#gallery img:hover,:active,:focus
+{
+     box-shadow: 0px 5px 35px rgba(0,0,0,0.9);
+}
+</style>
+</head>
+<body >
+<main class="img">
+     <!-- <nav>
+          <ul>
+               <li><a href="#gallery">photo</a></li>
+               <li><a href="#contact">contact</a></li>
+               <li><a href="#PC & Laptops">PC & Laptops</a></li>
+          </ul>
+     </nav> -->
+</main> 
+<div class="contbox"> <span><h1>LAPTOP AND COMPUTERS</h1></span>
+     <div id="gallery">
+     
+          <img src="/img/lap.jpg" alt="" class="img1">
+          <img src="/img/lap2.jpg" alt="" class="img2">
+          <img src="/img/lap3.jpg" alt="" class="img3">
+          <img src="/img/lap4.jpg" alt="" class="img4">
+          <img src="/img/la6.jpg" alt="" class="img5">
+          <img src="/img/la7.jpg" alt="" class="img6">
+          <img src="/img/lap8.jpg" alt="" class="img7">
+          <img src="/img/lap9" alt="" class="img8">
+          <img src="/img/lap10.jpg" alt="" class="img9">
+     </div> 
+</div>
+</body>
+</html>
